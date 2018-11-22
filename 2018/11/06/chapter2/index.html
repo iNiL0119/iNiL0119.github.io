@@ -45,7 +45,7 @@
 <meta property="og:image" content="http://blog.inil0119.com/images/2018-11-06/image18.png">
 <meta property="og:image" content="http://blog.inil0119.com/images/2018-11-06/image19.png">
 <meta property="og:image" content="http://blog.inil0119.com/images/2018-11-06/image20.png">
-<meta property="og:updated_time" content="2018-11-22T07:54:36.497Z">
+<meta property="og:updated_time" content="2018-11-22T08:05:28.298Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第二章-亦是爬坑之旅">
 <meta name="twitter:description" content="前言&amp;emsp;&amp;emsp;经过第一天的努力，博客已经可以正常运行了，但还是有很多地方需要优化。 汉化&amp;emsp;&amp;emsp;以导航栏为例，现在导航栏都是英文，通过全局搜索可以发现/themes/pure/languages/default.yml即为默认的语言设置文件，如图1。  图1 默认语言设置 &amp;emsp;&amp;emsp;例如，可以修改menu选项下的参数，比如将home修改为中文首页，如图2">
@@ -233,7 +233,7 @@
   <div class="widget">
     <h3 class="widget-title">归档</h3>
     <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a><span class="archive-list-count">3</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">十一月 2018</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -271,21 +271,6 @@
               </p>
               <p class="item-date">
                 <time datetime="2018-11-05T14:25:27.000Z" itemprop="datePublished">2018-11-05</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2018/11/02/hello-world/" class="title">Hello World</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2018-11-02T10:27:08.488Z" itemprop="datePublished">2018-11-02</time>
               </p>
             </div>
           </li>
@@ -346,7 +331,7 @@
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/11/06/chapter2/#comments" class="article-comment-link">评论</a></span>
         
 	
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 2.4k(字)</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">字数统计: 2.5k(字)</span>
 	
 	
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">阅读时长: 9(分)</span>
@@ -425,26 +410,21 @@
 <p>&emsp;&emsp;点击设置，点击应用Key，可以找到App ID和App Key，并将其赋值给主题配置文件中对应的pv.leancloud.app_id与pv.leancloud.app_key；接着在设置中点击安全中心，在Web安全域名下输入博客的域名地址，只有该域名可以访问LeanCloud系统，因此只会记录在这个域名下的访客数据。<br>&emsp;&emsp;重新构建部署。<br>&emsp;&emsp;<font color="#FF6347">注意：如果在调试阶段，还需要把<a href="http://127.0.0.1:4000" target="_blank">http://127.0.0.1:4000</a>添加进去。记得之后要删掉。</font><br>&emsp;&emsp;刷新页面，发现页面标题下显示计数icon且数值为0，但是在控制台显示Uncaught ReferenceError: AV is not defined问题。<br>&emsp;&emsp;Oops…something get wrong! 搞了半天，官网论坛和google都走了一遍，没看到有效的解决方式，如果有人知道如何解决，可以在评论处告知，好吧，还是换成busuanzi吧…</p>
 <h3 id="字数统计"><a href="#字数统计" class="headerlink" title="字数统计"></a>字数统计</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-wordcount --save</span><br></pre></td></tr></table></figure>
 <p>&emsp;&emsp;然后在主题配置文件中将postCount.enable设置为true，默认统计和阅读时长为开启状态。</p>
-<h3 id="hexo-admin"><a href="#hexo-admin" class="headerlink" title="hexo-admin"></a>hexo-admin</h3><p>&emsp;&emsp;hexo-admin可以编辑和创建静态页面内容，并通过设置脚本快速发布到github仓库。<br>&emsp;&emsp;首先安装npm包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-admin --save</span><br><span class="line">$ hexo s  -d</span><br></pre></td></tr></table></figure></p>
-<p>&emsp;&emsp;然后，浏览器输入<a href="http://localhost:4000/admin如图18。" target="_blank" rel="noopener">http://localhost:4000/admin如图18。</a></p>
+<h3 id="hexo-admin"><a href="#hexo-admin" class="headerlink" title="hexo-admin"></a>hexo-admin</h3><p>&emsp;&emsp;hexo-admin可以编辑和创建静态页面内容，并通过设置脚本快速发布到github仓库。<br>&emsp;&emsp;首先安装npm包<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-admin --save</span><br><span class="line">$ hexo s -d</span><br></pre></td></tr></table></figure></p>
+<p>&emsp;&emsp;然后，浏览器输入<a href="http://localhost:4000/admin" target="_blank">http://localhost:4000/admin</a>如图18。</p>
 <p><div align="center"><img src="/images/2018-11-06/image18.png" width="800"></div></p>
 <p><div align="center"><font color="gray" size="1">图18 Hexo Admin管理界面</font></div></p>
 <p>&emsp;&emsp;进入Settings，点击<a href="http://localhost:4000/admin/#/auth-setup" target="_blank">Setup authentification here</a>，设置管理员信息，把生成的配置代码赋值到系统配置文件中。</p>
 <p>&emsp;&emsp;配置代码如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># hexo-admin authentification</span></span><br><span class="line">admin:</span><br><span class="line">  username: myfavoritename</span><br><span class="line">  password_hash: be121740bf988b2225a313fa1f107ca1 <span class="comment"># bcrypt hash of your password</span></span><br><span class="line">  secret: a secret something <span class="comment"># make the cookies secure</span></span><br></pre></td></tr></table></figure></p>
-<blockquote>
-<p>hexo clean -&gt;  hexo  g  -&gt;  hexo s</p>
-</blockquote>
+<p><code>hexo clean -&gt; hexo g -&gt; hexo s</code></p>
 <p>&emsp;&emsp;刷新页面，显示登录界面/admin/login，输入之前在Settings页面设置的用户名和密码，登录admin系统。点击网站标题右侧的编辑icon进入编辑模式，如图19。</p>
 <p><div align="center"><img src="/images/2018-11-06/image19.png" width="800"></div></p>
 <p><div align="center"><font color="gray" size="1">图19 Admin系统编辑文章</font></div></p>
-<p>&emsp;&emsp;编辑完成，进入Deploy页面，点击Deploy发布，出现错误提示如图20，原因是没有找到部署命令，在刚刚复制的配置代码中增加Command: ‘./command/hexo-generate.sh’。</p>
+<p>&emsp;&emsp;编辑完成，进入Deploy页面，点击Deploy发布，出现错误提示如图20，原因是没有找到部署命令，在刚刚复制的配置代码中增加deployCommand: ‘./command/hexo-generate.sh’。</p>
 <p><div align="center"><img src="/images/2018-11-06/image20.png" width="400"></div></p>
 <p><div align="center"><font color="gray" size="1">图20 部署错误提示</font></div></p>
-<p>&emsp;&emsp;这里的Command的功能对应点击Deploy按钮的作用，将静态页面提交到github。<br>&emsp;&emsp;在项目更目录下进行如下操作：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir <span class="built_in">command</span> &amp;&amp; <span class="built_in">cd</span> <span class="built_in">command</span></span><br><span class="line">$ touch hexo-generate.sh &amp;&amp; vim hexo-generate.sh</span><br></pre></td></tr></table></figure></p>
-<p>&emsp;&emsp;在hexo-generate.sh文件中输入：</p>
-<blockquote>
-<p>hexo clean<br>hexo g -d</p>
-</blockquote>
+<p>&emsp;&emsp;这里的deployCommand的功能对应点击Deploy按钮的作用，即将静态页面提交到github。<br>&emsp;&emsp;在项目更目录下进行如下操作：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir <span class="built_in">command</span> &amp;&amp; <span class="built_in">cd</span> <span class="built_in">command</span></span><br><span class="line">$ touch hexo-generate.sh &amp;&amp; vim hexo-generate.sh</span><br></pre></td></tr></table></figure></p>
+<p>&emsp;&emsp;在hexo-generate.sh文件中输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env sh</span></span><br><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></p>
 <h3 id="SEO"><a href="#SEO" class="headerlink" title="SEO"></a>SEO</h3><p>&emsp;&emsp;</p>
 <h3 id="豆瓣书单"><a href="#豆瓣书单" class="headerlink" title="豆瓣书单"></a>豆瓣书单</h3><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
 <li><a href="http://charmlegal.com/2017/12/05/article6/" target="_blank">Hexo—如何设置文章目录（TOC）</a></li>
