@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.inil0119.com/2018/11/05/chapter1/</loc>
+    
+    <lastmod>2019-01-03T12:17:07.752Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.inil0119.com/2018/11/22/chapter3/</loc>
     
     <lastmod>2019-01-03T12:14:37.761Z</lastmod>
@@ -16,13 +23,6 @@
   </url>
   
   <url>
-    <loc>https://blog.inil0119.com/2018/11/05/chapter1/</loc>
-    
-    <lastmod>2019-01-03T12:11:34.035Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.inil0119.com/about/index.html</loc>
     
     <lastmod>2018-11-22T09:57:43.259Z</lastmod>
@@ -30,14 +30,14 @@
   </url>
   
   <url>
-    <loc>https://blog.inil0119.com/books/index.html</loc>
+    <loc>https://blog.inil0119.com/categories/index.html</loc>
     
     <lastmod>2018-11-05T03:06:15.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://blog.inil0119.com/categories/index.html</loc>
+    <loc>https://blog.inil0119.com/books/index.html</loc>
     
     <lastmod>2018-11-05T03:06:15.000Z</lastmod>
     
